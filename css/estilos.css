@@ -45,17 +45,21 @@ li a {
   padding: 10px 10px 10px 10px;
 }
 
-#secundaria img{
+#secundaria img {
   display: block;
   margin: 0 auto;
 }
 
-section img{
+#secundaria a {
+  color: #000;
+}
+
+section img {
   box-shadow: 2px 2px 0 #02010a;
   width: 90%;
 }
 
-footer{
+footer {
   background-color: #C6d5c5;
   border-radius: 0 0 10px 10px;
 }
@@ -104,6 +108,13 @@ footer{
     width: 50%;
   }
 
+  #imgpaisaje:hover {
+    transform: rotate(10deg);
+    -moz-transform : rotate(10deg); /* Firefox */
+  	-webkit-transform : rotate(10deg); /* Safari */
+	   -o-transform : rotate(10deg); /* Opera */
+  }
+
   .contenido-footer  {
     display: -webkit-flex;
     display: flex;
@@ -119,9 +130,8 @@ footer{
 
 @media (max-width: 900px) {
   header h1{
-    display: inline;
-    margin:auto;
     text-align: center;
+    margin:auto;
   }
 
   ul {
