@@ -31,7 +31,7 @@ li a {
 
 #principal {
   background-color: #82c3a6;
-  padding: 10px 10px 10px 10px;
+  padding: 20px;
 }
 
 #principal img {
@@ -42,7 +42,7 @@ li a {
 #secundaria {
   background-color: #d5c75f;
   border: 1px;
-  padding: 10px 10px 10px 10px;
+  padding: 20px;
 }
 
 #secundaria img {
@@ -52,11 +52,28 @@ li a {
 
 #secundaria a {
   color: #000;
+  text-align: center;
 }
 
 section img {
-  box-shadow: 2px 2px 0 #02010a;
+  box-shadow: 2px 2px #02010a;
   width: 90%;
+}
+
+#paisaje:hover {
+  transform: rotate(10deg);
+  -moz-transform : rotate(10deg);
+  -webkit-transform : rotate(10deg);
+   -o-transform : rotate(10deg);
+   box-shadow: 2px 2px #82c3a6;
+}
+
+#retratos:hover {
+  transform: translate(20px, -5px);
+  -moz-transform : translate(20px, -5px);
+  -webkit-transform : translate(20px, -5px);
+   -o-transform : translate(20px, -5px);
+   box-shadow: 2px 2px #82c3a6;
 }
 
 footer {
@@ -64,6 +81,7 @@ footer {
   border-radius: 0 0 10px 10px;
 }
 
+/*Estilos para versio desktop*/
 @media (min-width: 900px) {
   .contenido {
     width: 900px;
@@ -108,13 +126,6 @@ footer {
     width: 50%;
   }
 
-  #imgpaisaje:hover {
-    transform: rotate(10deg);
-    -moz-transform : rotate(10deg); /* Firefox */
-  	-webkit-transform : rotate(10deg); /* Safari */
-	   -o-transform : rotate(10deg); /* Opera */
-  }
-
   .contenido-footer  {
     display: -webkit-flex;
     display: flex;
@@ -128,6 +139,7 @@ footer {
 
 }
 
+/*Estilo para version mobiles*/
 @media (max-width: 900px) {
   header h1{
     text-align: center;
