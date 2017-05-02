@@ -57,7 +57,6 @@ li a {
 
 section img {
   box-shadow: 2px 2px #02010a;
-  width: 90%;
 }
 
 #paisaje:hover {
@@ -81,7 +80,7 @@ footer {
   border-radius: 0 0 10px 10px;
 }
 
-/*Estilos para versio desktop*/
+/*Estilos para version desktop*/
 @media (min-width: 900px) {
   .contenido {
     width: 900px;
@@ -139,8 +138,13 @@ footer {
 
 }
 
-/*Estilo para version mobiles*/
+/*Estilo para version movil*/
 @media (max-width: 900px) {
+
+  .contenido{
+    width: 100%;
+  }
+
   header h1{
     text-align: center;
     margin:auto;
@@ -162,8 +166,8 @@ footer {
       text-align: center;
   }
 
-  .contenido{
-    width: 100%;
-  }
+  .responsive-image {
+      width: 100%;
+    }
 
 }
