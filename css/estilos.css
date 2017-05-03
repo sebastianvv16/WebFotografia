@@ -39,7 +39,7 @@ li a {
   margin: 0 auto;
 }
 
-#secundaria {
+#secundaria, #galeria {
   background-color: #d5c75f;
   border: 1px;
   padding: 20px;
@@ -168,6 +168,11 @@ footer {
 
   .responsive-image {
       width: 100%;
+    }
+
+  .row-footer {
+        margin: 20px;
+        padding: 2px;
     }
 
 }
