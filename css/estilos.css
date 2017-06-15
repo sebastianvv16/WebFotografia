@@ -11,9 +11,6 @@ body {
 }
 
 @keyframes slidein {
-  /*0%   {from {margin-top: 150%;} to {margin-top: -5%;}}
-  60%  {from {margin-top: 150%;} to {margin-top: -5%;}}
-  100% {from {margin-top: 150%;} to {margin-top: -5%;}}*/
   from {
     margin-top: 150%;
   }
@@ -23,9 +20,6 @@ body {
 }
 
 @-webkit-keyframes slidein {
-  /*0%   {from {margin-top: 150%;} to {margin-top: -5%;}}
-  60%  {from {margin-top: 150%;} to {margin-top: -5%;}}
-  100% {from {margin-top: 150%;} to {margin-top: -5%;}}*/
   from {
     margin-top: 150%;
   }
@@ -59,8 +53,9 @@ li a {
   color: white;
 }
 
-#header a:active {
-  text-decoration: none;
+header > ul > li > a:active{
+  background-color: #ffffff;
+  color: red;
 }
 
 #principal {
@@ -169,18 +164,25 @@ footer {
   #secundaria div {
     width: 50%;
   }
-/*
-  .contenido-galeria {
+
+  #galeria {
+    width: inherit;
+    margin:0 auto;
+    padding: 0;
     display: -webkit-flex;
     display: flex;
-    flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
   }
 
   #galeria div {
-
+    width: 30%;
+  	padding: 0.625rem;
+  	display: -webkit-flex;
+  	display: flex;
   }
-*/
+
   .contenido-footer  {
     display: -webkit-flex;
     display: flex;
@@ -226,8 +228,13 @@ footer {
       width: 100%;
     }
 
+  .contenido-footer  {
+      display: -webkit-flex;
+      display: flex;
+    }
+
   .row-footer {
-        margin: 20px;
+        margin: 10px;
         padding: 2px;
     }
 
