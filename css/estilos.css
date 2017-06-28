@@ -53,9 +53,8 @@ li a {
   color: white;
 }
 
-header > ul > li > a:active{
-  background-color: #ffffff;
-  color: red;
+.menu  a:active {
+  text-decoration: none;
 }
 
 #principal {
