@@ -150,7 +150,7 @@ footer {
       padding: 10px;
       text-align: center;
   }
-s
+
   .contenido-secundaria {
     display: -webkit-flex;
     display: flex;
@@ -221,6 +221,11 @@ s
   footer {
     width: 100%;
     display: inline-block;
+  }
+
+  .contenido-footer div {
+    text-align: center;
+    align-items: center;
   }
 
 }
