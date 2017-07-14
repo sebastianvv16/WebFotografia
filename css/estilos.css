@@ -44,13 +44,17 @@ header h1 {
   text-shadow:0 0 2px #02010a;
 }
 
-ul {
+#header ul {
   list-style-type: none;
   font-size: 18px;
 }
 
-li a {
+#header li a {
   color: white;
+}
+
+.active {
+  text-decoration: none;
 }
 
 #principal {
@@ -223,9 +227,15 @@ footer {
     display: inline-block;
   }
 
-  .contenido-footer div {
-    text-align: center;
-    align-items: center;
+  .contenido-footer  {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .row-footer {
+    max-width: 50%;
   }
 
 }
