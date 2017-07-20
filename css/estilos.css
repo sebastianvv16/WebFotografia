@@ -226,7 +226,7 @@ footer {
     width: 100%;
     display: inline-block;
   }
-
+/*
   .contenido-footer  {
     display: -webkit-flex;
     display: flex;
@@ -237,5 +237,5 @@ footer {
   .row-footer {
     max-width: 50%;
   }
-
+*/
 }
